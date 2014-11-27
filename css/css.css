@@ -1,0 +1,316 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', Arial, serif; 
+	font-weight: 400;
+}
+
+a {
+	font-family: 'Lato', Arial, serif; 
+	font-weight: 300;
+}
+
+h1 {
+	font-family: 'Lato', Arial, serif; 
+	font-weight: 300;
+	color: #252020;
+	font-size: 18px;
+}
+
+.wrapper {
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	width: 900px;
+	height: 455px;
+	margin-left: -450px;
+}
+
+.wrapper2 {
+	position: relative;
+	width: 650px;
+	height: 455px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -198px;
+	margin-top: -72px;
+	height: 142px;
+	border: thin solid rgb(194, 194, 194);
+}
+
+.main {
+	width: 100%;
+	position: relative;	
+	margin-top: 22px;
+	float: left;
+}
+
+.f-right {
+	float: right;
+	width: 49%;
+}
+
+.logo {
+	width: 102px;
+	height: 83px;
+	background: url('../images/logo-1.png')no-repeat;
+	float: left;
+	margin-left: 20px;
+}
+
+.contents {
+	float: right;
+	margin-left: 29px;
+	padding-right: 17px;
+}
+
+.card {
+	width: 420px;
+	height: 170px;
+	position: absolute;
+	top: 50%;
+	margin-top: -75px;
+	background-color: #FFFFFF;
+	margin-left: 17px;
+}
+
+.container2 {
+	position: absolute;
+	left: 50%;
+	margin-left: -198px;
+	margin-top: 30px;
+	height: 142px;
+	background-color: #FFFFFF;
+}
+
+.logo-main {
+	position: relative;
+	width: 466px;
+	height: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	background-color: rgb(235, 235, 235);
+}
+
+.logo-main img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -52px;
+	margin-left: -64px;
+}
+
+.main2 {
+	width: 100%;
+	position: relative;	
+	margin-top: 22px;
+	float: left;
+}
+
+.form-right {
+	float: right;
+	position: relative;
+	width: 475px;
+	height: 100%;
+	background-color: rgb(235, 235, 235);
+}
+
+.left {
+	float: left;
+	width: 60px;
+	height: 100%;
+}
+.left img {
+	margin-top: 10px;
+	margin-left: 11px;
+}
+.right {
+	float: right;
+	width: 350px;
+	height: 100%;
+}
+
+.line1 {
+	width: 225px;
+	height: 1px;
+	background-color: #003468;
+}
+
+.name {
+	color: #231F20;
+	font-size: 21px;
+}
+
+.jobtitle {
+	font-family: Arial;
+	color: #737373;
+	font-size: 12px;
+	height: auto;
+}
+.address, .mail, .cellphone{
+	color: #848484;
+	font-size: 11px;
+}
+
+.address {
+	margin-top: 32px;
+	color: #454545;
+	
+}
+
+.logos {
+	width: 92px;
+	height: 30px;
+	float: right;
+	margin-right: 10px;
+	margin-top: -40px;
+}
+
+.results {
+	padding: 7px;
+	background-color: rgb(255, 129, 129);
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+.mandatory {
+	float: left;
+	color: red;
+	font-size: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul.a {
+	width: 140px;
+	float: left;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+ul.b{
+	width: 100px;	
+	float: left;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+ul.c {
+	width: 100px;
+	float: left;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+ul li {
+	color: #939598;
+	font-size: 11px;
+}
+
+ul.c li.bold {
+}
+
+.bolder {
+	font-weight: 700;
+	font-size: 10px;
+	color: black;
+}
+
+.buttons {
+	float: left;
+	width: 96%;
+	margin-top: 35px;
+}
+
+a {
+	background-color: #3da1d1;
+	padding: 10px;
+	color: #FFFFFF;
+	font-size: 12px;
+	text-decoration: none;
+	float: right;
+}
+
+a:hover {
+	background-color: #64BCE6;
+}
+
+.formulario {
+	width: 85%;
+	margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+
+.formulario form {
+	width: 100%;
+
+}
+
+span {
+	width: 100%;
+	margin-top: 25px;
+	font-size: 12px;
+}
+span img {
+	padding-left: 4px;
+}
+
+input[type="text"]{
+	width:93%;
+	padding:0 1%;
+	height:31px;
+	background:#F7F7F7;
+	color:#000;
+	border:none;
+	border: thin solid #7ED5FF;
+	margin-bottom: 10px;
+}
+
+.clear {
+	clear: both;
+}
+
+
+a.btnDownload, a.btnRegresar {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -8px;
+	margin-top: -8px;
+	background-color: rgb(247, 66, 66);
+}
+
+a.btnGenerate {
+	position: absolute;
+	top:0;
+	right: 0;	
+	background-color: rgb(247, 66, 66);
+}
+
+
+a.btnRegresar {
+	margin-top: 30px;
+	background-color: #C4C4C4;
+	margin-left: -3px;
+}
+
+.web {
+	position: absolute;
+	font-size: 11px;
+	bottom: 0px;
+	left: 20px;
+}
+
